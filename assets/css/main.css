@@ -1,0 +1,63 @@
+/* main styles for each page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', sans-serif;
+}
+
+html, 
+body {
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    color: #FFCF9F;
+}
+
+main {
+    -webkit-overflow: hidden;
+       -moz-overflow: hidden;
+         -o-overflow: hidden;
+            overflow: hidden;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    color: #FFCF9F;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: cyan;
+    height: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-up {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fink-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('../images/fink-logo.svg');
+    background-size: cover;
+}
