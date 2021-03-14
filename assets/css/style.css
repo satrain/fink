@@ -44,14 +44,25 @@ body {
     background: #000;
 }
 
-
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
+    color: #fff;
+}
+
+h1 {
     font-size: 120px;
     line-height: 146px;
-    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 24px;
+    color: #FFCF9E;
 }
 
 a {
@@ -66,6 +77,10 @@ a {
 .container {
     width: 85%;
     margin: 0 auto;
+}
+
+.alignfull {
+    width: 100%;
 }
 
 header {
@@ -96,7 +111,7 @@ header {
 .fink-heading {
     font-family: 'nk206', sans-serif;
     font-size: 72px;
-    font-height: 100.8px;
+    line-height: 100.8px;
     color: #FBD29D;
 }
 
@@ -151,6 +166,7 @@ header nav ul li a {
     padding-top: 300px;
     padding-bottom: 70px;
     background: url('../images/fink-hero-welcome-bgr.png');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,5 +189,22 @@ header nav ul li a {
     color:#FBD29D;
 }
 
+/* About us */
+.about-us-wrapper .section-order {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFB56B;
+}
 
+.about-us-wrapper p {
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 16px;
+    line-height: 193.1%;
+    color: #FFCF9E;
+}
 
