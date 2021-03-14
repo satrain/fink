@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: nk206;
+    src: url(../fonts/NK206.otf);
+}
+
+@font-face {
+    font-family: Winston-Bold;
+    src: url(../fonts/WINSTON-BOLD_1.OTF);
+}
+
+@font-face {
+    font-family: Winston-Medium;
+    src: url(../fonts/WINSTON-MEDIUM_1.OTF);
+}
+
+@font-face {
+    font-family: Winston-Thin;
+    src: url(../fonts/WINSTON-THIN_1.OTF);
+}
+
+@keyframes heroBgrSwap {
+    0% {
+        background: url('../images/fink-hero-welcome-bgr.png');
+    }
+    50% {
+        background: url('../images/fink-hero-second-bgr.png');
+    }
+    100% {
+        background: url('../images/fink-hero-welcome-bgr.png');
+    }
+    
+
+}
+
+html,
+body {
+    height: 100%;
+    background: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 146px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #FFCF9E;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-padding {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.alignfull {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    height: 180px;
+    padding-top: 10px;
+    padding-bottom: 31px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fink-logo {
+    width: 100px;
+    height: 100px;
+    background: url('../images/fink-logo.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fink-heading {
+    font-family: 'nk206', sans-serif;
+    font-size: 72px;
+    line-height: 100.8px;
+    color: #FBD29D;
+}
+
+.fink-languages {
+    font-family: 'Winston-Medium', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFCF9F;
+}
+
+.fink-languages a {
+    font-family: 'Winston-Medium', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFCF9F;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li:not(first-child) {
+    margin-left: 45px;
+    margin-top: 22px;
+}
+
+header nav ul li a {
+    font-family: 'Winston-Thin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
