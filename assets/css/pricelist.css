@@ -1,0 +1,67 @@
+.pricelist-hero {
+    width: 100%;
+    height: 50%;
+
+    background: url("../images/fink-hero-welcome-bgr.png");
+}
+
+.pricelist-hero-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.pricelist-hero-content h1 {
+
+    line-height: 125px;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 36px;
+}
+
+.pricelist-wrapper {
+    padding-top: 112px;
+    padding-bottom: 90px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricelist-wrapper h2 {
+    margin-bottom: 32px;
+
+    font-family: 'Winston-Thin', 'sans-serif';
+    color: #FFCF9E;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.pricelist-wrapper h3 {
+    margin-top: 23px;
+
+    font-size: 22px;
+    font-family: 'Winston-Medium', sans-serif;
+    color: #FFCF9E;
+}
+
+.pricelist-wrapper p {
+    margin-top: 9px;
+
+    font-size: 20px;
+    font-family: 'Winston-Thin', 'sans-serif';
+    color: #FFCF9E;
+}
+
+.pricelist-massages {
+    text-align: center;
+}
+
+.pricelist-cosmetic-treatments {
+    text-align: center;
+}

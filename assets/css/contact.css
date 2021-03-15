@@ -1,0 +1,119 @@
+.contact-hero {
+    width: 100%;
+    height: 50%;
+
+    background: url("../images/fink-hero-welcome-bgr.png");
+}
+
+.contact-hero-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.contact-hero-content h1 {
+
+    line-height: 125px;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 36px;
+}
+
+.contact-wrapper {
+    padding-top: 112px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-wrapper h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact-wrapper h3 {
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    color: #FFCF9E;
+}
+
+.contact-form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.contact-form-left form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-form-left input,
+.contact-form-left textarea {
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FFF;
+    color: #FFCF9E;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    width: 400px;
+}
+
+.contact-form-left input::placeholder,
+.contact-form-left textarea::placeholder {
+    color: rgba(255, 207, 158, .25);
+}
+
+.contact-form-left textarea {
+    margin-top: 25px;
+    margin-bottom: 32px;
+    border: 2px solid #FFF;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.contact-form-left input:not(:first-child) {
+    margin-top: 25px;
+}
+
+/* TODO style button */
+/* TODO don't use clear #fff color for text due to big contrast and eye damage */
+.contact-form-left button {
+    display: block;
+    width: 100px;
+
+    background: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.contact-form-right {
+    margin-top: 20px;
+}
+
+.contact-form-right h4 {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Winston-Medium', sans-serif;
+    color: rgba(255, 255, 255, .7);
+}
+
+.contact-form-right p {
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 18px;
+    color: #FFCF9E;
+    margin-bottom: 20px;
+}
