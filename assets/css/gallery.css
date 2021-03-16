@@ -1,0 +1,22 @@
+.gallery-hero {
+    width: 100%;
+    height: 50%;
+
+    background: url("../images/fink-hero-welcome-bgr.png");
+}
+
+.gallery-hero-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.gallery-hero-content h1 {
+    line-height: 125px;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 36px;
+}

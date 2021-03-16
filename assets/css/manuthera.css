@@ -1,0 +1,93 @@
+.manuthera-hero {
+    width: 100%;
+    height: 50%;
+
+    background: url("../images/fink-hero-welcome-bgr.png");
+}
+
+.manuthera-hero-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.manuthera-hero-content h1 {
+    line-height: 125px;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 36px;
+}
+
+.manuthera-wrapper {
+    padding-top: 112px;
+    padding-bottom: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manuthera-wrapper h3 {
+    margin-bottom: 30px;
+
+    font-family: 'Winston-Medium', sans-serif;
+    color: #FFCF9E;
+
+    font-size: 28px;
+}
+
+.manuthera-wrapper li {
+    font-family: 'Winston-Thin', sans-serif;
+    color: #FFCF9E;
+
+    font-size: 20px;
+}
+
+.manuthera-wrapper ul {
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.manuthera-wrapper-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manuthera-wrapper-image1 {
+    width: 30%;
+    height: 300px;
+
+    background: url("../images/about-us-bgr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.manuthera-wrapper-image2 {
+    width: 30%;
+    height: 300px;
+
+    background: url("../images/about-us-bgr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.manuthera-wrapper-image3 {
+    width: 30%;
+    height: 300px;
+
+    background: url("../images/about-us-bgr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.manuthera-wrapper-video {
+    width: 960px;
+    height: 400px;
+
+    background: lightblue;
+}
