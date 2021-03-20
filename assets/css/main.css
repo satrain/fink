@@ -91,6 +91,7 @@ header {
     padding-bottom: 31px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .upper-header {
