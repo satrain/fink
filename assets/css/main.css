@@ -83,6 +83,37 @@ a {
     width: 100%;
 }
 
+li {
+    list-style: none;
+}
+
+input:not([type=submit]),
+textarea {
+    font-family: 'Winston-Medium', sans-serif;
+    font-size: 20px;
+    color: #FFCF9E;
+    padding: 15px 12px;
+    background: transparent;
+    border: unset;
+    border-bottom: 2px solid rgba(255, 255, 255, .7);
+    outline: none;
+    transition: .3s;
+}
+
+textarea {
+    border: 2px solid rgba(255, 255, 255, .7);
+}
+
+input:not([type=submit]):focus {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    transition: .3s;
+}
+
+textarea:focus {
+    border: 2px solid rgba(255, 255, 255, 1);
+    transition: .3s;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -159,5 +190,131 @@ header nav ul li a {
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    padding-top: 70px;
+}
+
+.footer-wrapper {
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fink-footer-logo {
+    width: 70px;
+    height: 70px;
+    margin-left: -5px;
+
+    background: url('../images/fink-logo.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-wrapper > div > ul {
+    margin-top: 20px;
+}
+
+.footer-wrapper > div > ul > label {
+    font-family: 'Winston-Thin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+}
+
+.footer-wrapper > div > ul > li {
+    margin-bottom: 8px;
+}
+
+.footer-wrapper > div > ul > li > a {
+    font-family: 'Winston-Thin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    color: #FFCF9F;
+    text-decoration: none;
+}
+
+.footer-contact,
+.footer-shortcuts,
+.footer-social-media {
+    margin-top: 35px;
+}
+
+.footer-part-section-heading {
+    font-family: 'Winston-Medium', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFCF9F;
+}
+
+.footer-shortcuts > ul > li > a {
+    color: rgba(255, 255, 255, .7)!important;
+}
+
+.footer-shortcuts > ul > li > a:hover {
+    color: rgba(255, 255, 255, 1)!important;
+}
+
+.social-media-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.instagram-icon {
+    width: 50px;
+    height: 50px;
+
+    background: url('../images/instagram-icon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.facebook-icon {
+    width: 50px;
+    height: 50px;
+
+    background: url('../images/facebook-icon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linkedin-icon {
+    width: 50px;
+    height: 50px;
+
+    background: url('../images/linkedin-icon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Winston-Thin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #fff;
     text-decoration: none;
 }

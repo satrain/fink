@@ -16,8 +16,8 @@
 
 .home-wrapper p {
     font-family: 'Winston-Thin', sans-serif;
-    font-size: 16px;
-    line-height: 193.1%;
+    font-size: 18px;
+    line-height: 27.5px;
     text-align: center;
     color: #FFCF9E;
 }
@@ -172,6 +172,15 @@
     background-repeat: no-repeat;
 }
 
+/* Sneak Peakk gallery */
+#sneak_peak_gallery {
+    padding-bottom: 90px;
+}
+
+.sneak-peak-gallery-items {
+    margin-top: 70px;
+}
+
 .sneak-peak-gallery-items > div {
     width: 100%;
     margin-bottom: 45px;
@@ -262,4 +271,104 @@
     background: #fff;
     left: 140px;
     top: 60%;
+}
+
+/* About owner */
+#about_owner {
+    position: relative;
+}
+
+.about-owner-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.about-owner-overview {
+    width: 465px;
+    margin-top: 60px;
+}
+
+.owner-full-name {
+    margin-bottom: 25px;
+    font-family: 'Winston-Medium', sans-serif;
+    font-size: 24px;
+    line-height: 33.6px;
+    text-transform: uppercase;
+    color: #FFCF9E;
+}
+
+.owner-image {
+    width: 100%;
+    height: 695px;
+    background: url('../images/fink-owner-picture.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.owner-position {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-family: 'Winston-Medium', sans-serif;
+    font-size: 24px;
+    line-height: 33.6px;
+    text-transform: uppercase;
+    color: #FFCF9E;
+}
+
+.owner-bio {
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 17px;
+    line-height: 193.1%;
+    text-align: left;
+    color: #FFCF9E;
+}
+
+blockquote {
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 17px;
+    line-height: 193.1%;
+    text-align: left;
+    color: #FFCF9E;
+}
+
+/* Contact */
+.contact-form-wrapper {
+    width: 100%;
+}
+
+.contact-form-wrapper form {
+    width: 80%;
+    margin: 70px auto 50px;
+}
+
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.contact-form-btn {
+    margin-top: 30px;
+    font-family: 'Winston-Medium', sans-serif;
+    font-size: 20px;
+    color: #000;
+    padding: 10px 36px;
+    border: 2px solid #fff;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.contact-form-btn:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: .3s;
 }
