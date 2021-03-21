@@ -86,17 +86,30 @@
 /* Our services */
 .our-services-images-wrapper {
     width: 100%;
+    margin-top: 75px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.our-services-images-wrapper > div {
+.our-services-images-wrapper > a {
     width: 50%;
     height: 409px;
     border: 4px solid #FCD2A7;
+    overflow: hidden;
+}
+
+.our-services-images-wrapper > a:hover div {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.our-services-images-wrapper > a > div {
+    width: 100%;
+    height: 100%;
 
     display: flex;
     align-items: center;
+    transition: .5s;
 }
 
 .terapeutske-masaze {
@@ -126,7 +139,7 @@
     background-repeat: no-repeat;
 }
 
-.our-services-images-wrapper > div > div {
+.our-services-images-wrapper > a > div > div {
     width: 100%;
     padding-top: 27px;
     padding-bottom: 27px;
@@ -145,4 +158,108 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFCF9E;
+}
+
+/* Lojer Manuthera 242 */
+.lojer-manuthera-242-parallax-image {
+    width: 100%;
+    height: 100%;
+
+    background: url('../images/lojer-manuthera-242.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sneak-peak-gallery-items > div {
+    width: 100%;
+    margin-bottom: 45px;
+
+    display: flex;
+    align-items: center;
+}
+
+.sneak-peak-gallery-item-left-align {
+    flex-direction: row;
+}
+
+.sneak-peak-gallery-item-right-align {
+    flex-direction: row-reverse;
+}
+
+.sneak-peak-gallery-item-image {
+    width: 600px;
+    height: 450px;
+    border: 4px solid #FCD2A7;
+    border-radius: 4px;
+}
+
+.sneak-peak-gallery-item-one .sneak-peak-gallery-item-image {
+    background: url('../images/slika-lokala-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sneak-peak-gallery-item-two .sneak-peak-gallery-item-image {
+    background: url('../images/slika-lokala-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sneak-peak-gallery-item-three .sneak-peak-gallery-item-image {
+    background: url('../images/slika-lokala-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sneak-peak-gallery-item-left-align .sneak-peak-gallery-item-copy {
+    margin-left: 95px;
+}
+
+.sneak-peak-gallery-item-left-align .sneak-peak-gallery-item-image {
+    /*box-shadow: 4px 4px 24px -4px #fcd2a7;*/
+}
+
+.sneak-peak-gallery-item-right-align .sneak-peak-gallery-item-image {
+    /*box-shadow: -4px 4px 24px -4px #fcd2a7;*/
+}
+
+.sneak-peak-gallery-item-right-align .sneak-peak-gallery-item-copy {
+    margin-right: 95px;
+}
+
+.sneak-peak-gallery-item-copy {
+    max-width: 520px;    
+}
+
+.sneak-peak-gallery-item-copy p {
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 16px;
+    line-height: 193.1%;
+    text-align: justify;
+    color: #FFCF9E;
+}
+
+.sneak-peak-gallery-item-copy a {
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 18px;
+    line-height: 193.1%;
+    color: #fff;
+}
+
+.sneak-peak-gallery-item-copy a::after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    background: #fff;
+    left: 140px;
+    top: 60%;
 }
