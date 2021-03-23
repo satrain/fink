@@ -1,0 +1,336 @@
+.services-hero {
+    width: 100%;
+    height: 50%;
+
+    background: url("../images/fink-hero-welcome-bgr.png");
+}
+
+.services-hero-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.services-hero-content h1 {
+
+    line-height: 125px;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 36px;
+}
+
+.services-wrapper {
+    padding-top: 90px;
+}
+
+.services-tab-wrapper {
+    margin-bottom: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.services-tab-wrapper > button {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #FFCF9E;
+    
+    background-color: transparent;
+    border: unset;
+    outline: none;
+    padding-bottom: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.services-tab-wrapper > button:hover {
+    border-bottom: 1px solid #FFF !important;
+    transition: .3s;
+}
+
+.tab-active {
+    border-bottom: 1px solid #FFF !important;
+}
+
+/* Terapeutske masaze */
+.terapeutske-masaze {
+    flex-direction: column;
+}
+
+.terapeutske-masaze-lojer-manuthera-242 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terapeutske-masaze-lojer-manuthera-242 h2 {
+    font-size: 28px;
+    line-height: 39.5px;
+    font-family: 'Winston-Medium', sans-serif;
+    color: #FFCF9E;
+    margin-bottom: 50px;
+}
+
+.lojer-manuthera-242-video {
+    width: 800px;
+    height: 450px;
+
+    background: #FFF;
+}
+
+.terapeutske-masaze-slike {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.terapeutske-masaze-slika-h3 h3{
+    font-size: 24px;
+    line-height: 33.6px;
+    font-family: 'Winston-Thin', sans-serif;
+    color: #FFCF9E;
+
+    text-align: center;
+    padding: 12px 10px;
+}
+
+.terapeutske-masaze-slike div {
+    margin-top: 100px;
+}
+
+.terapeutska-masaza-slika-1 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/ayuverda-masaza.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terapeutska-masaza-slika-2 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/hot-stone-masaza.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terapeutska-masaza-slika-3 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/sropf-masaza.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terapeutska-masaza-slika-4 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/sport-masaza.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terapeutska-masaza-slika-5 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/refleks-masaza.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terapeutska-masaza-slika-6 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/aroma-terapija.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Manikir & Pedikir */
+.manikir-pedikir {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.manikir-pedikir > div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pedikir-slika-1 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/pedikir-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.manikir-slika-1 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/manikir-1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pedikir-slika-2 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/pedikir-2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Kriolipoliza */
+.kriolipoliza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kriolipoliza > div {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.kriolipoliza > h2 {
+    font-size: 28px;
+    line-height: 39.5px;
+    font-family: 'Winston-Medium', sans-serif;
+    color: #FFCF9E;
+}
+
+.kriolipoliza-video {
+    width: 800px;
+    height: 450px;
+
+    background: #FFF;
+    border: 4px solid #FCD2A7;
+}
+
+.kriolipoliza-slika {
+    width: 800px;
+    height: 450px;
+
+    background: url("../images/kriolipoliza-slika-1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid #FCD2A7;
+}
+
+/* Kozmeticki tretmani */
+.kozmeticki-tretmani {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.kozmeticki-tretmani > div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.kozmeticki-tretman-video-1 {
+    width: 300px;
+    height: 300px;
+
+    background: #FFF;
+    border: 4px solid #FCD2A7;
+}
+
+.kozmeticki-tretman-video-2 {
+    width: 300px;
+    height: 300px;
+
+    background: #FFF;
+    border: 4px solid #FCD2A7;
+}
+
+.kozmeticki-tretman-video-3 {
+    width: 300px;
+    height: 300px;
+
+    background: #FFF;
+    border: 4px solid #FCD2A7;
+}
+
+.kozmeticki-tretman-slika-1 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/kozmeticki-tretmani-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #FCD2A7;
+}
+
+.kozmeticki-tretman-slika-2 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/kozmeticki-tretmani-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #FCD2A7;
+}
+
+.kozmeticki-tretman-slika-3 {
+    width: 300px;
+    height: 300px;
+
+    background: url("../images/kozmeticki-tretmani.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #FCD2A7;
+}
+
+.kozmeticki-tretman-video-4 {
+    width: 300px;
+    height: 300px;
+
+    background: #FFF;
+    border: 4px solid #FCD2A7;
+}
+
+.kozmeticki-tretman-video-5 {
+    width: 300px;
+    height: 300px;
+
+    background: #FFF;
+    border: 4px solid #FCD2A7;
+}
+
+.kozmeticki-tretman-video-6 {
+    width: 300px;
+    height: 300px;
+
+    background: #FFF;
+    border: 4px solid #FCD2A7;
+}

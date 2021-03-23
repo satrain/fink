@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/usluge.css">
+    
+
+    <title>Centar Fink</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-padding">
+        <div class="upper-header">
+            <a href=""><div class="fink-logo"></div></a>
+            <div class="fink-heading">Centar lepote i vitalnosti - Fink</div>
+            <div class="fink-languages"><a href="#">ENG</a> | <a href="#">SRB</a></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Početna</a></li>
+                <li><a href="#">Galerija</a></li>
+                <li><a href="#">O nama</a></li>
+                <li><a href="#">Cenovnik</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="jumbotron services-hero">
+        <div class="services-hero-content">
+            <h1>Naše usluge</h1>
+        </div>
+    </div>
+        <div class="container services-wrapper">
+            <div class="services-tab-wrapper">
+                <button class="tab-btn tab-active" onclick="openService(event, 'terapeutske-masaze')">Terapeutske masaže</button>
+                <button class="tab-btn" onclick="openService(event, 'manikir-pedikir')">Manikir & Pedikir</button>
+                <button class="tab-btn" onclick="openService(event, 'kriolipoliza')">Kriolipoliza</button>
+                <button class="tab-btn" onclick="openService(event, 'kozmeticki-tretmani')">Kozmetički tretmani</button>
+            </div>
+            
+            <!--Terapeutske masaze-->
+            <div id="terapeutske-masaze" class="service-tab terapeutske-masaze">
+                <div class="terapeutske-masaze-lojer-manuthera-242">
+                    <h2>Lojer Manuthera 242</h2>
+                    <div class="lojer-manuthera-242-video"></div>
+                </div>
+                <div class="terapeutske-masaze-slike">
+                    <div class="terapeutske-masaze-slika-h3">
+                        <div class="terapeutska-masaza-slika-1"></div>
+                        <h3>Ayuverda masaža</h3>
+                    </div>
+                    <div class="terapeutske-masaze-slika-h3">
+                        <div class="terapeutska-masaza-slika-2"></div>
+                        <h3>Hot stone masaža</h3>
+                    </div>
+                    <div class="terapeutske-masaze-slika-h3">
+                        <div class="terapeutska-masaza-slika-3"></div>
+                        <h3>Sropf masaža</h3>
+                    </div>
+                    <div class="terapeutske-masaze-slika-h3">
+                        <div class="terapeutska-masaza-slika-4"></div>
+                        <h3>Sport masaža</h3>
+                    </div>
+                    <div class="terapeutske-masaze-slika-h3">
+                        <div class="terapeutska-masaza-slika-5"></div>
+                        <h3>Refleks masaža</h3>
+                    </div>
+                    <div class="terapeutske-masaze-slika-h3">
+                        <div class="terapeutska-masaza-slika-6"></div>
+                        <h3>Aroma terapija</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Manikir & Pedikir-->
+            <div id="manikir-pedikir" class="service-tab manikir-pedikir" style="display:none">
+                <div class="pedikir-slika-1"></div>
+                <div class="manikir-slika-1"></div>
+                <div class="pedikir-slika-2"></div>
+            </div>
+            
+            <!--Kriolipoliza-->
+            <div id="kriolipoliza" class="service-tab kriolipoliza" style="display:none">
+                <h2>Skidanje masnih naslaga</h2>
+                <div class="kriolipoliza-video"></div>
+                <h2>Najsavremenijim aparatom</h2>
+                <div class="kriolipoliza-slika"></div>
+            </div>
+
+            <!--Kozmeticki Tretmani-->
+            <div id="kozmeticki-tretmani" class="service-tab kozmeticki-tretmani" style="display:none">
+                <video class="kozmeticki-tretman-video-1" autoplay loop>
+                    <source src="/assets/videos/kozmeticki-tretmani-1.mp4" type="video/mp4">
+                </video>
+                <video class="kozmeticki-tretman-video-2">
+                    <source src="/assets/videos/kozmeticki-tretmani-2.mp4" type="video/mp4">
+                </video>
+                <video class="kozmeticki-tretman-video-3">
+                    <source src="/assets/videos/kozmeticki-tretmani-3.mp4" type="video/mp4">
+                </video>
+                <div class="kozmeticki-tretman-slika-1"></div>
+                <div class="kozmeticki-tretman-slika-2"></div>
+                <div class="kozmeticki-tretman-slika-3"></div>
+                <video class="kozmeticki-tretman-video-4">
+                    <source src="/assets/videos/kozmeticki-tretmani-4.mp4" type="video/mp4">
+                </video>
+                <video class="kozmeticki-tretman-video-5">
+                    <source src="/assets/videos/kozmeticki-tretmani-5.mp4" type="video/mp4">
+                </video>
+                <video class="kozmeticki-tretman-video-6">
+                    <source src="/assets/videos/kozmeticki-tretmani-6.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/services-tabs.js"></script>
+</body>

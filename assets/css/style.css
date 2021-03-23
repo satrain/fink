@@ -178,15 +178,55 @@
 }
 
 /* Lojer Manuthera 242 */
-.lojer-manuthera-242-parallax-image {
-    width: 100%;
-    height: 100%;
+.lojer-manuthera-242-main {
+    margin-bottom: 45px;
 
-    background: url('../images/lojer-manuthera-242.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lojer-manuthera-242-main-copy  p {
+    max-width: 520px;
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 16px;
+    line-height: 193.1%;
+    text-align: justify;
+    color: #FFCF9E;
+}
+
+.lojer-manuthera-242-main-copy a {
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    font-family: 'Winston-Thin', sans-serif;
+    font-size: 18px;
+    line-height: 193.1%;
+    color: #fff;
+}
+
+.lojer-manuthera-242-main-copy a::after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    background: #fff;
+    left: 140px;
+    top: 60%;
+    margin-left: 25px;
+}
+
+.lojer-manuthera-242-image {
+    width: 600px;
+    height: 450px;
+    margin-left: 95px;
+
+    background: url("../images/lojer-manuthera-242.jpg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 4px solid #FCD2A7;
+    border-radius: 4px;
 }
 
 /* Sneak Peakk gallery */
