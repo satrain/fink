@@ -90,11 +90,21 @@
 
 .usluge-box {
     width: 24%;
-    background: lightgreen;
 }
 
 .usluge-box h3 {
-    
+    font-family: 'nk206', sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FBD29D;
+    text-align: center;
+}
+
+.usluge-copy {
+    font-size: 18px;
+    font-family: 'Winston-Thin', sans-serif;
+    color: #FBD29D;
+    text-align: center;
 }
 
 .usluge-img {
