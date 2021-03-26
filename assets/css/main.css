@@ -114,6 +114,13 @@ textarea:focus {
     transition: .3s;
 }
 
+@media screen and (max-width: 530px) {
+    .main-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -124,6 +131,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.mobile-nav {
+    display: none;
 }
 
 .upper-header {
@@ -192,6 +203,22 @@ header nav ul li a {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+@media screen and (max-width: 530px) {
+    .fink-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .fink-heading {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    
+    .fink-heading > span {
+        display: none;
+    }
+} 
 
 /* Footer */
 footer {

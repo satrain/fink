@@ -17,17 +17,17 @@
 <body>
     <header class="main-padding">
         <div class="upper-header">
-            <a href=""><div class="fink-logo"></div></a>
+            <a href="https://centar-fink.com/"><div class="fink-logo"></div></a>
             <div class="fink-heading">Centar lepote i vitalnosti - Fink</div>
             <div class="fink-languages"><a href="#">ENG</a> | <a href="#">SRB</a></div>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Početna</a></li>
-                <li><a href="#">Galerija</a></li>
-                <li><a href="#">O nama</a></li>
-                <li><a href="#">Cenovnik</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="https://centar-fink.com/">Početna</a></li>
+                <li><a href="usluge.html">Usluge</a></li>
+                <li><a href="gallery.html">Galerija</a></li>
+                <li><a href="pricelist.html">Cenovnik</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
             </ul>
         </nav>
     </header>
@@ -48,8 +48,13 @@
             <div id="terapeutske-masaze" class="service-tab terapeutske-masaze">
                 <div class="terapeutske-masaze-lojer-manuthera-242">
                     <h2>Lojer Manuthera 242</h2>
-                    <div class="lojer-manuthera-242-video"></div>
+                    <div class="lojer-manuthera-242-video">
+                        <video controls autoplay muted>
+                            <source src="assets/videos/manuthera-full-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
+                
                 <div class="terapeutske-masaze-slike">
                     <div class="terapeutske-masaze-slika-h3">
                         <div class="terapeutska-masaza-slika-1"></div>
@@ -88,7 +93,11 @@
             <!--Kriolipoliza-->
             <div id="kriolipoliza" class="service-tab kriolipoliza" style="display:none">
                 <h2>Skidanje masnih naslaga</h2>
-                <div class="kriolipoliza-video"></div>
+                <div class="kriolipoliza-video">
+                    <video controls autoplay muted>
+                        <source src="assets/videos/kriolipoliza_2.mp4" type="video/mp4">
+                    </video>
+                </div>
                 <h2>Najsavremenijim aparatom</h2>
                 <div class="kriolipoliza-slika"></div>
             </div>
@@ -107,7 +116,7 @@
                 <div class="kozmeticki-tretman-slika-1"></div>
                 <div class="kozmeticki-tretman-slika-2"></div>
                 <div class="kozmeticki-tretman-slika-3"></div>
-                <video class="kozmeticki-tretman-video-4">
+                <video class="kozmeticki-tretman-video-4" autoplay controls>
                     <source src="/assets/videos/kozmeticki-tretmani-4.mp4" type="video/mp4">
                 </video>
                 <video class="kozmeticki-tretman-video-5">
@@ -120,5 +129,53 @@
         </div>
     </div>
 
+    <footer>
+        <div class="container footer-wrapper">
+            <div class="footer-info">
+                <a href="https://centar-fink.com/"><div class="fink-footer-logo"></div></a>
+                <ul>
+                    <label>Adresa</label>
+                    <li><a>Gundulićev venac 44, Beograd, Srbija</a></li>
+                    
+                    <label>Radno vreme</label>
+                    <li><a>09:00 - 20:00</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <div class="footer-part-section-heading">Kontakt</div>
+                <ul>
+                    <label>Mobilni</label>
+                    <li><a>061 60 71 798</a></li>
+                    
+                    <label>Fiksni</label>
+                    <li><a>011 20 30 416</a></li>
+
+                    <label>Email</label>
+                    <li><a href="mailto:slavicafink@gmail.com">slavicafink@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-shortcuts">
+                <div class="footer-part-section-heading">Prečice</div>
+                <ul>
+                    <li><a href="gallery.html">Galerija</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="pricelist.html">Cenovnik</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-media">
+                <div class="footer-part-section-heading">Pratite nas</div>
+                <div class="social-media-container">
+                    <a href="#" target="_blank"><div class="instagram-icon"></div></a>
+                    <a href="#" target="_blank"><div class="facebook-icon"></div></a>
+                    <a href="#" target="_blank"><div class="linkedin-icon"></div></a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">&#169; Centar Fink, 2021 All rights reserved</div>
+    </footer>
+
     <script src="assets/js/services-tabs.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+</html>

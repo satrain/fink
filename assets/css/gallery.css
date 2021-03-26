@@ -20,3 +20,121 @@
 
     font-size: 36px;
 }
+
+.gallery-wrapper {
+    padding-bottom: 70px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 91px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-wrapper > h2 {
+    font-family: 'Winston-Medium', sans-serif;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    margin-bottom: 60px;
+}
+
+.gallery-wrapper > h2:not(:first-child) {
+    margin-top: 110px;
+}
+
+.our-local-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-local-image-1 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/slika-lokala-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-local-image-2 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/slika-lokala-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-local-image-3 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/slika-lokala-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery-lojer-manuthera {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lojer-manuthera-image-1 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/lojer-manuthera-242.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lojer-manuthera-image-2 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/lojer-manuthera-242-2.jpg');
+    background-position: left 60% top 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lojer-manuthera-image-3 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/lojer-manuthera-242-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-treatments-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-treatments-image-1 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/kozmeticki-tretmani-1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-treatments-image-2 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/terapeutska-masaza-3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-treatments-image-3 {
+    width: 30%;
+    height: 500px;
+
+    background: url('../images/pedikir-1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

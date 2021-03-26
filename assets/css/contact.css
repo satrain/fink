@@ -48,7 +48,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
 
 }
 
@@ -92,12 +92,22 @@
 /* TODO style button */
 /* TODO don't use clear #fff color for text due to big contrast and eye damage */
 .contact-form-left button {
-    display: block;
-    width: 100px;
+    font-family: 'Winston-Medium', sans-serif;
+    font-size: 18px;
+    width: 150px;
+    padding: 12px 24px;
+    text-align: center;
 
+    cursor: pointer;
+    outline: none;
     background: transparent;
     border: 2px solid #FFF;
     color: #FFF;
+}
+
+.contact-form-left button:hover {
+    background: #fff;
+    color: #000;
 }
 
 .contact-form-right {

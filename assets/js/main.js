@@ -24,3 +24,20 @@ window.addEventListener("scroll", function () {
     }
     prevScrollpos = currentScrollPos;
 })
+
+var images = ["assets/images/centar-fink-hero-background-1.jpeg", "assets/images/centar-fink-hero-background-2.jpeg"]
+
+$(function () {
+    var i = 0;
+    $(".hero").css("background-image", "url(" + images[i] + ")");
+    setInterval(function () {
+        i++;
+        if (i == images.length) {
+            i = 0;
+        }
+        $(".hero").fadeOut("slow", function () {
+            $(this).css("background-image", "url(" + images[i] + ")");
+            $(this).fadeIn("slow");
+        });
+    }, 5000);
+});
