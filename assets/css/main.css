@@ -137,11 +137,54 @@ header {
     display: none;
 }
 
+.before-header {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    border-bottom: 4px solid #FFCF9F;
+}
+
 .upper-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.main-info {
+    font-family: 'Winston-Thin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22.5px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+}
+
+.before-header nav {
+    width: 45%;
+}
+
+.before-header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.before-header nav ul li a {
+    font-family: 'Winston-Thin', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
 }
 
 .fink-logo {
@@ -154,9 +197,9 @@ header {
 
 .fink-heading {
     font-family: 'nk206', sans-serif;
-    font-size: 72px;
-    line-height: 100.8px;
-    color: #FBD29D;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000;
 }
 
 .fink-languages {
