@@ -58,15 +58,16 @@
     height: 100%;
     padding-top: 300px;
     padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-content {
-    max-width: 691px;
+    width: auto;
+    padding-left: 251px;
 }
 
 .hero-content h1 {
-    line-height: 125px;
-    text-align: right;
     text-transform: uppercase;
 }
 
@@ -74,6 +75,12 @@
     font-size: 80px;
     line-height: 98px;
     color:#FBD29D;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    line-height: 67px;
+    text-transform: uppercase;
 }
 
 /* About us */

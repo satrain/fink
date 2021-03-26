@@ -25,6 +25,8 @@ window.addEventListener("scroll", function () {
     prevScrollpos = currentScrollPos;
 })
 
+
+// hero images swap functionality
 var images = ["assets/images/centar-fink-hero-background-1.jpeg", "assets/images/centar-fink-hero-background-2.jpeg"]
 
 $(function () {
